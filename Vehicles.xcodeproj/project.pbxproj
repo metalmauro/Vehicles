@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		959C7B481DCE637500356796 /* Motorcycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 959C7B471DCE637500356796 /* Motorcycle.m */; };
 		959D869D1DCE5566004E0CBF /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 959D869C1DCE5566004E0CBF /* Car.m */; };
 		F5961A2217DD013A008D39EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5961A2117DD013A008D39EA /* Foundation.framework */; };
 		F5961A2417DD013A008D39EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5961A2317DD013A008D39EA /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		959C7B461DCE637500356796 /* Motorcycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Motorcycle.h; sourceTree = "<group>"; };
+		959C7B471DCE637500356796 /* Motorcycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Motorcycle.m; sourceTree = "<group>"; };
 		959D869B1DCE5566004E0CBF /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		959D869C1DCE5566004E0CBF /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		F5961A1E17DD013A008D39EA /* Vehicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vehicles.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +131,8 @@
 				F5961A3317DD013A008D39EA /* Main.storyboard */,
 				F5961A5917DD04AF008D39EA /* Vehicle.h */,
 				F5961A5A17DD04AF008D39EA /* Vehicle.m */,
+				959C7B461DCE637500356796 /* Motorcycle.h */,
+				959C7B471DCE637500356796 /* Motorcycle.m */,
 				F5961A3617DD013A008D39EA /* VehicleListTableViewController.h */,
 				F5961A3717DD013A008D39EA /* VehicleListTableViewController.m */,
 				F5961A3917DD013A008D39EA /* VehicleDetailViewController.h */,
@@ -270,6 +275,7 @@
 				F5961A2E17DD013A008D39EA /* main.m in Sources */,
 				F5961A3B17DD013A008D39EA /* VehicleDetailViewController.m in Sources */,
 				F5961A5B17DD04AF008D39EA /* Vehicle.m in Sources */,
+				959C7B481DCE637500356796 /* Motorcycle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

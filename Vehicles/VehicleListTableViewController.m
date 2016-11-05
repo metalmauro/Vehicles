@@ -10,6 +10,7 @@
 #import "Car.h"
 #import "VehicleDetailViewController.h"
 #import "Vehicle.h"
+#import "Motorcycle.h"
 
 @interface VehicleListTableViewController ()
 @property (nonatomic, strong) NSMutableArray *vehicles;
@@ -93,6 +94,27 @@
     //Sort the array by the model year
     NSSortDescriptor *modelYear = [NSSortDescriptor sortDescriptorWithKey:@"modelYear" ascending:YES];
     [self.vehicles sortUsingDescriptors:@[modelYear]];
+    
+    
+    //Create a motorcycle
+    Motorcycle *harley = [[Motorcycle alloc] init];
+    harley.brandName = @"Harley-Davidson";
+    harley.modelName = @"Softail";
+    harley.modelYear = 1979;
+    harley.engineNoise = @"Vrrrrrrrroooooooooom!";
+    
+    //Add it to the array.
+    [self.vehicles addObject:harley];
+    
+    //Create another motorcycle
+    Motorcycle *kawasaki = [[Motorcycle alloc] init];
+    kawasaki.brandName = @"Kawasaki";
+    kawasaki.modelName = @"Ninja";
+    kawasaki.modelYear = 2005;
+    kawasaki.engineNoise = @"Neeeeeeeeeeeeeeeeow!";
+    
+    //Add it to the array
+    [self.vehicles addObject:kawasaki];
 }
 
 #pragma mark - Table View Data Source
